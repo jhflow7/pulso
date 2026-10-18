@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="172" viewBox="0 0 620 172">
+  <defs>
+    <linearGradient id="textgrad" x1="260" y1="34" x2="504" y2="115" gradientUnits="userSpaceOnUse"><stop stop-color="#f5f2ff"/><stop offset="1" stop-color="#aca0ff"/></linearGradient>
+  </defs>
+  <g transform="translate(4 4) scale(.64)">
+    <defs>
+      <linearGradient id="tile" x1="20" y1="12" x2="238" y2="246" gradientUnits="userSpaceOnUse"><stop stop-color="#2a2448"/><stop offset=".52" stop-color="#17182a"/><stop offset="1" stop-color="#10151e"/></linearGradient>
+      <linearGradient id="ring" x1="40" y1="44" x2="220" y2="212" gradientUnits="userSpaceOnUse"><stop stop-color="#b7a2ff"/><stop offset=".55" stop-color="#8d78ff"/><stop offset="1" stop-color="#6de2c0"/></linearGradient>
+      <linearGradient id="pulse" x1="40" y1="130" x2="218" y2="130" gradientUnits="userSpaceOnUse"><stop stop-color="#7de9cc"/><stop offset=".52" stop-color="#b4a0ff"/><stop offset="1" stop-color="#8e7cff"/></linearGradient>
+    </defs>
+    <rect x="7" y="7" width="242" height="242" rx="62" fill="url(#tile)" stroke="#8e7cff" stroke-opacity=".26" stroke-width="2"/>
+    <circle cx="128" cy="128" r="82" fill="none" stroke="url(#ring)" stroke-opacity=".18" stroke-width="2"/>
+    <circle cx="128" cy="128" r="67" fill="none" stroke="url(#ring)" stroke-opacity=".38" stroke-width="5" stroke-dasharray="280 145" stroke-linecap="round" transform="rotate(-36 128 128)"/>
+    <path d="M39 133 H77 L96 101 L119 166 L143 106 L159 133 H179" fill="none" stroke="url(#pulse)" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="202" cy="133" r="6" fill="#7de9cc"/>
+  </g>
+  <text x="184" y="83" font-size="66" font-family="Inter, Noto Sans, sans-serif" font-weight="800" letter-spacing="-4" fill="url(#textgrad)">pulso</text>
+  <circle cx="378" cy="82" r="5" fill="#7de9cc"/>
+  <text x="190" y="120" font-size="14" font-family="Inter, Noto Sans, sans-serif" font-weight="600" letter-spacing="4.2" fill="#8c90a8">DOWNLOAD STUDIO</text>
+  <path d="M190 139 H410" stroke="#8e7cff" stroke-opacity=".35" stroke-width="1.5" stroke-linecap="round"/>
+</svg>

@@ -1,15 +1,9 @@
-
-# Build outputs
-/node_modules/
-/dist/
-/src-tauri/target/
-
-# Local secrets
+node_modules/
+dist/
+src-tauri/target/
 .env
 .env.*
 !.env.example
-
-# Logs and temporary files
 *.log
 .DS_Store
 Thumbs.db
